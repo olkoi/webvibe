@@ -235,14 +235,11 @@ export default function Index() {
               </p>
               <div className="mb-8">
                 <p className="text-4xl font-bold text-suzaa-navy">
-                  Custom
-                </p>
-                <p className="text-sm text-suzaa-neutral-600">
-                  Contact for pricing
+                  $9.99<span className="text-lg text-suzaa-neutral-600">/month</span>
                 </p>
               </div>
               <button className="w-full bg-suzaa-blue text-white py-3 rounded font-semibold hover:bg-suzaa-blue/90 transition-colors">
-                Contact Sales
+                Get Started
               </button>
             </div>
 
