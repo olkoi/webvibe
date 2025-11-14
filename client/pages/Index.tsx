@@ -89,75 +89,75 @@ export default function Index() {
               use—no crypto expertise required.
             </p>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div className="p-8">
-              <div className="w-12 h-12 bg-suzaa-blue/10 rounded flex items-center justify-center mb-6">
-                <Lock className="w-6 h-6 text-suzaa-blue" />
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
+            <div className="transition-all duration-200 hover:translate-y-[-2px]">
+              <div className="w-10 h-10 rounded flex items-center justify-center mb-6" style={{ backgroundColor: "#eff5ff" }}>
+                <Code className="w-5 h-5 text-suzaa-blue" strokeWidth={2} />
               </div>
-              <h3 className="text-lg font-semibold text-suzaa-navy mb-3">
+              <h3 className="text-base font-medium text-suzaa-navy mb-3">
                 Open-Source Core
               </h3>
-              <p className="text-suzaa-neutral-600">
+              <p className="text-sm text-suzaa-neutral-600 leading-relaxed">
                 Non-custodial and fully transparent by design. Your
                 infrastructure, your rules.
               </p>
             </div>
-            <div className="p-8">
-              <div className="w-12 h-12 bg-suzaa-blue/10 rounded flex items-center justify-center mb-6">
-                <Shield className="w-6 h-6 text-suzaa-blue" />
+            <div className="transition-all duration-200 hover:translate-y-[-2px]">
+              <div className="w-10 h-10 rounded flex items-center justify-center mb-6" style={{ backgroundColor: "#eff5ff" }}>
+                <Zap className="w-5 h-5 text-suzaa-blue" strokeWidth={2} />
               </div>
-              <h3 className="text-lg font-semibold text-suzaa-navy mb-3">
+              <h3 className="text-base font-medium text-suzaa-navy mb-3">
                 Real-Time Settlement
               </h3>
-              <p className="text-suzaa-neutral-600">
+              <p className="text-sm text-suzaa-neutral-600 leading-relaxed">
                 Instant confirmation and low-latency processing across any
                 chain.
               </p>
             </div>
-            <div className="p-8">
-              <div className="w-12 h-12 bg-suzaa-blue/10 rounded flex items-center justify-center mb-6">
-                <Zap className="w-6 h-6 text-suzaa-blue" />
+            <div className="transition-all duration-200 hover:translate-y-[-2px]">
+              <div className="w-10 h-10 rounded flex items-center justify-center mb-6" style={{ backgroundColor: "#eff5ff" }}>
+                <Link className="w-5 h-5 text-suzaa-blue" strokeWidth={2} />
               </div>
-              <h3 className="text-lg font-semibold text-suzaa-navy mb-3">
+              <h3 className="text-base font-medium text-suzaa-navy mb-3">
                 Simple Payment Links
               </h3>
-              <p className="text-suzaa-neutral-600">
-                Create and share payment links in seconds��no integrations or
+              <p className="text-sm text-suzaa-neutral-600 leading-relaxed">
+                Create and share payment links in seconds—no integrations or
                 coding required.
               </p>
             </div>
-            <div className="p-8">
-              <div className="w-12 h-12 bg-suzaa-blue/10 rounded flex items-center justify-center mb-6">
-                <Globe className="w-6 h-6 text-suzaa-blue" />
+            <div className="transition-all duration-200 hover:translate-y-[-2px]">
+              <div className="w-10 h-10 rounded flex items-center justify-center mb-6" style={{ backgroundColor: "#eff5ff" }}>
+                <Globe className="w-5 h-5 text-suzaa-blue" strokeWidth={2} />
               </div>
-              <h3 className="text-lg font-semibold text-suzaa-navy mb-3">
+              <h3 className="text-base font-medium text-suzaa-navy mb-3">
                 Global Reach
               </h3>
-              <p className="text-suzaa-neutral-600">
+              <p className="text-sm text-suzaa-neutral-600 leading-relaxed">
                 Accept payments from 175+ countries with chain-agnostic
                 compatibility.
               </p>
             </div>
-            <div className="p-8">
-              <div className="w-12 h-12 bg-suzaa-blue/10 rounded flex items-center justify-center mb-6">
-                <TrendingUp className="w-6 h-6 text-suzaa-blue" />
+            <div className="transition-all duration-200 hover:translate-y-[-2px]">
+              <div className="w-10 h-10 rounded flex items-center justify-center mb-6" style={{ backgroundColor: "#eff5ff" }}>
+                <Wallet className="w-5 h-5 text-suzaa-blue" strokeWidth={2} />
               </div>
-              <h3 className="text-lg font-semibold text-suzaa-navy mb-3">
+              <h3 className="text-base font-medium text-suzaa-navy mb-3">
                 Your Wallet, Your Keys
               </h3>
-              <p className="text-suzaa-neutral-600">
+              <p className="text-sm text-suzaa-neutral-600 leading-relaxed">
                 Funds always go directly to your wallet. SUZAA never holds or
                 accesses your assets.
               </p>
             </div>
-            <div className="p-8">
-              <div className="w-12 h-12 bg-suzaa-blue/10 rounded flex items-center justify-center mb-6">
-                <BarChart3 className="w-6 h-6 text-suzaa-blue" />
+            <div className="transition-all duration-200 hover:translate-y-[-2px]">
+              <div className="w-10 h-10 rounded flex items-center justify-center mb-6" style={{ backgroundColor: "#eff5ff" }}>
+                <Shield className="w-5 h-5 text-suzaa-blue" strokeWidth={2} />
               </div>
-              <h3 className="text-lg font-semibold text-suzaa-navy mb-3">
+              <h3 className="text-base font-medium text-suzaa-navy mb-3">
                 Privacy First
               </h3>
-              <p className="text-suzaa-neutral-600">
+              <p className="text-sm text-suzaa-neutral-600 leading-relaxed">
                 Start instantly with no KYC required. Minimal data, maximum
                 control.
               </p>
