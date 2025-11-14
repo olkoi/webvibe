@@ -85,8 +85,8 @@ export default function Index() {
               Seamless. Transparent. Effortless
             </h2>
             <p className="text-lg text-suzaa-neutral-600 max-w-2xl mx-auto">
-              Made for day-to-day simplicity, with an intuitive flow anyone
-              can use—no crypto expertise required.
+              Made for day-to-day simplicity, with an intuitive flow anyone can
+              use—no crypto expertise required.
             </p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -122,8 +122,8 @@ export default function Index() {
                 Simple Payment Links
               </h3>
               <p className="text-suzaa-neutral-600">
-                Create and share payment links in seconds—no integrations
-                or coding required.
+                Create and share payment links in seconds—no integrations or
+                coding required.
               </p>
             </div>
             <div className="p-8">
@@ -146,8 +146,8 @@ export default function Index() {
                 Your Wallet, Your Keys
               </h3>
               <p className="text-suzaa-neutral-600">
-                Funds always go directly to your wallet. SUZAA never holds
-                or accesses your assets.
+                Funds always go directly to your wallet. SUZAA never holds or
+                accesses your assets.
               </p>
             </div>
             <div className="p-8">
