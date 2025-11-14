@@ -2,12 +2,12 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import {
   ArrowRight,
-  Lock,
+  Code,
   Zap,
-  Shield,
-  TrendingUp,
+  Link,
   Globe,
-  BarChart3,
+  Wallet,
+  Shield,
 } from "lucide-react";
 
 export default function Index() {
@@ -122,7 +122,7 @@ export default function Index() {
                 Simple Payment Links
               </h3>
               <p className="text-suzaa-neutral-600">
-                Create and share payment links in seconds—no integrations or
+                Create and share payment links in seconds��no integrations or
                 coding required.
               </p>
             </div>
