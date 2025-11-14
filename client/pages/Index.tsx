@@ -42,20 +42,36 @@ export default function Index() {
         <div className="max-w-7xl mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
             <div className="text-center border-r border-suzaa-neutral-200 last:border-r-0">
-              <p className="text-4xl font-bold text-suzaa-navy mb-2">$2.5B+</p>
-              <p className="text-suzaa-neutral-600">Transactions Processed</p>
+              <p className="text-4xl font-bold text-suzaa-navy mb-2">10,000+</p>
+              <p className="text-suzaa-neutral-600">
+                <em>Supported crypto coin, chain, token</em>
+                <br />
+                <em>Chain-agnostic architecture</em>
+              </p>
             </div>
             <div className="text-center border-r border-suzaa-neutral-200 last:border-r-0">
-              <p className="text-4xl font-bold text-suzaa-navy mb-2">150+</p>
-              <p className="text-suzaa-neutral-600">Countries Supported</p>
+              <p className="text-4xl font-bold text-suzaa-navy mb-2">175+</p>
+              <p className="text-suzaa-neutral-600">
+                <em>Supported countries</em>
+                <br />
+                <em>No KYC required to start</em>
+              </p>
             </div>
             <div className="text-center border-r border-suzaa-neutral-200 last:border-r-0">
-              <p className="text-4xl font-bold text-suzaa-navy mb-2">99.99%</p>
-              <p className="text-suzaa-neutral-600">Uptime Guarantee</p>
+              <p className="text-4xl font-bold text-suzaa-navy mb-2">0%</p>
+              <p className="text-suzaa-neutral-600">
+                No per-transaction charges.
+                <br />
+                Fully transparent flat-fee pricing.
+              </p>
             </div>
             <div className="text-center">
-              <p className="text-4xl font-bold text-suzaa-navy mb-2">2ms</p>
-              <p className="text-suzaa-neutral-600">Average Response Time</p>
+              <p className="text-4xl font-bold text-suzaa-navy mb-2">100%</p>
+              <p className="text-suzaa-neutral-600">
+                Open source core.
+                <br />
+                Always free self-hosted
+              </p>
             </div>
           </div>
         </div>
@@ -262,7 +278,7 @@ export default function Index() {
               </p>
               <div className="mb-8">
                 <p className="text-4xl font-bold text-suzaa-navy">
-                  $9.99
+                  $10
                   <span className="text-lg text-suzaa-neutral-600">/month</span>
                 </p>
               </div>
