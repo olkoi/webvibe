@@ -193,8 +193,7 @@ export default function Index() {
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold mb-4">How SUZAA Works</h2>
             <p className="text-lg text-white/70 max-w-2xl mx-auto">
-              Simple integration, powerful results. Get up and running in
-              minutes.
+              Simple steps. Powerful use cases.
             </p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
