@@ -215,7 +215,7 @@ export default function Index() {
             </div>
             <div className="text-center">
               <div className="text-4xl font-bold text-suzaa-blue mb-4">03</div>
-              <h3 className="text-lg font-semibold mb-3">Use</h3>
+              <h3 className="text-lg font-semibold mb-3">Get Paid</h3>
               <p className="text-white/70">
                 Generate a payment request and share it. That&apos;s it—get paid
                 in seconds.
