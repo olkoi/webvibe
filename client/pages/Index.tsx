@@ -8,6 +8,7 @@ import {
   Globe,
   Wallet,
   Shield,
+  Github,
 } from "lucide-react";
 
 export default function Index() {
