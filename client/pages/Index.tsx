@@ -444,7 +444,7 @@ export default function Index() {
                 You can also find the SUZAA team on:
               </p>
 
-              <div className="space-y-4">
+              <div className="space-y-3">
                 <a
                   href="https://twitter.com"
                   target="_blank"
