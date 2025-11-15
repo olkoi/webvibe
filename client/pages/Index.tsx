@@ -371,43 +371,45 @@ export default function Index() {
       {/* Contact Us Section with Gradient */}
       <section className="px-4 sm:px-6 lg:px-8 py-24 bg-gradient-to-r from-suzaa-blue to-suzaa-teal">
         <div className="max-w-7xl mx-auto">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
+          <div className="grid grid-cols-1 md:grid-cols-[7fr_3fr] gap-8 items-start">
             {/* Left Column - Contact Form */}
             <div className="text-white">
-              <h2 className="text-4xl font-bold mb-4">Ready to talk to us?</h2>
-              <p className="text-lg text-white/90 mb-10">
+              <h2 className="text-3xl font-bold mb-2">Ready to talk to us?</h2>
+              <p className="text-base text-white/90 mb-8">
                 Email us at support@suzaa.com or use the form below.
               </p>
 
-              <form onSubmit={handleSubmit} className="space-y-5">
-                <div>
-                  <label className="block text-sm font-medium text-white mb-2">
-                    Name
-                  </label>
-                  <input
-                    type="text"
-                    name="name"
-                    value={formData.name}
-                    onChange={handleChange}
-                    className="w-full px-4 py-3 rounded bg-white/10 border border-white/20 text-white placeholder-white/50 focus:outline-none focus:border-white/50 focus:bg-white/15 transition-colors"
-                    placeholder="Your name"
-                    required
-                  />
-                </div>
+              <form onSubmit={handleSubmit} className="space-y-4">
+                <div className="grid grid-cols-2 gap-4">
+                  <div>
+                    <label className="block text-sm font-medium text-white mb-2">
+                      Name
+                    </label>
+                    <input
+                      type="text"
+                      name="name"
+                      value={formData.name}
+                      onChange={handleChange}
+                      className="w-full px-4 py-3 rounded bg-white/10 border border-white/20 text-white placeholder-white/50 focus:outline-none focus:border-white/50 focus:bg-white/15 transition-colors"
+                      placeholder="Your name"
+                      required
+                    />
+                  </div>
 
-                <div>
-                  <label className="block text-sm font-medium text-white mb-2">
-                    Email
-                  </label>
-                  <input
-                    type="email"
-                    name="email"
-                    value={formData.email}
-                    onChange={handleChange}
-                    className="w-full px-4 py-3 rounded bg-white/10 border border-white/20 text-white placeholder-white/50 focus:outline-none focus:border-white/50 focus:bg-white/15 transition-colors"
-                    placeholder="your@email.com"
-                    required
-                  />
+                  <div>
+                    <label className="block text-sm font-medium text-white mb-2">
+                      Email
+                    </label>
+                    <input
+                      type="email"
+                      name="email"
+                      value={formData.email}
+                      onChange={handleChange}
+                      className="w-full px-4 py-3 rounded bg-white/10 border border-white/20 text-white placeholder-white/50 focus:outline-none focus:border-white/50 focus:bg-white/15 transition-colors"
+                      placeholder="your@email.com"
+                      required
+                    />
+                  </div>
                 </div>
 
                 <div>
@@ -436,9 +438,9 @@ export default function Index() {
             </div>
 
             {/* Right Column - Social Links */}
-            <div className="text-white">
-              <h2 className="text-4xl font-bold mb-4">Reach out on social</h2>
-              <p className="text-lg text-white/90 mb-8">
+            <div className="text-white md:flex md:flex-col md:justify-center">
+              <h2 className="text-2xl font-bold mb-2">Reach out on social</h2>
+              <p className="text-sm text-white/90 mb-6">
                 You can also find the SUZAA team on:
               </p>
 
