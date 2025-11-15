@@ -299,6 +299,13 @@ export default function Index() {
               </button>
             </div>
           </div>
+
+          {/* Self-Hosted Info Bar */}
+          <div className="mt-12 w-full bg-suzaa-neutral-200/30 rounded-lg px-6 py-4 text-center">
+            <p className="text-sm text-suzaa-neutral-700">
+              Self-Hosted version is always free and open for the community. Unlimited links, unlimited wallets, full API access.
+            </p>
+          </div>
         </div>
       </section>
 
