@@ -31,9 +31,14 @@ export default function Navbar() {
             </div>
           </div>
           <div className="flex gap-4">
-            <button className="text-sm px-4 py-2 bg-suzaa-navy text-white rounded hover:bg-suzaa-neutral-900 transition-colors">
+            <a
+              href="https://app.suzaa.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-sm px-4 py-2 bg-suzaa-navy text-white rounded hover:bg-suzaa-neutral-900 transition-colors"
+            >
               Sign In
-            </button>
+            </a>
           </div>
         </div>
       </div>
