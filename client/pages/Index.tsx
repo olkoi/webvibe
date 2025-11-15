@@ -28,12 +28,22 @@ export default function Index() {
             simple flat fee. Suzaa is a tool, not a financial intermediary.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <button className="bg-suzaa-navy text-white px-8 py-4 rounded font-semibold hover:bg-suzaa-neutral-900 transition-colors flex items-center justify-center gap-2">
+            <a
+              href="https://app.suzaa.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-suzaa-navy text-white px-8 py-4 rounded font-semibold hover:bg-suzaa-neutral-900 transition-colors flex items-center justify-center gap-2"
+            >
               Launch App <ArrowRight className="w-4 h-4" />
-            </button>
-            <button className="border-2 border-suzaa-navy text-suzaa-navy px-8 py-4 rounded font-semibold hover:bg-suzaa-navy hover:text-white transition-colors">
+            </a>
+            <a
+              href="https://github.com/suzaaglobal/core"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="border-2 border-suzaa-navy text-suzaa-navy px-8 py-4 rounded font-semibold hover:bg-suzaa-navy hover:text-white transition-colors text-center"
+            >
               Github
-            </button>
+            </a>
           </div>
         </div>
       </section>
