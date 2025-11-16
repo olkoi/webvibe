@@ -46,15 +46,11 @@ export default function Index() {
     setStatusMessage(null);
 
     try {
-      await emailjs.send(
-        "service_afzup4b",
-        "template_fwlsx8o",
-        {
-          from_name: formData.name,
-          from_email: formData.email,
-          message: formData.message,
-        },
-      );
+      await emailjs.send("service_afzup4b", "template_fwlsx8o", {
+        from_name: formData.name,
+        from_email: formData.email,
+        message: formData.message,
+      });
 
       setStatusMessage({
         type: "success",
